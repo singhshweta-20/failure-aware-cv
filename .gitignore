@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (do not commit datasets)
+data/*
+!data/README.md
+
+# Logs
+*.log
+
+# Text
+*.txt
+
+# OS files
+.DS_Store
+Thumbs.db
