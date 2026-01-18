@@ -10,6 +10,11 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
+# Ignore trained models
+results/Model/
+*.pth
+*.pt
+
 # Data (do not commit datasets)
 data/*
 !data/README.md
